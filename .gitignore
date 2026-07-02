@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# large genomic data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.fasta
+*.fa
+*.fna
+*.gff
+*.gff3
+*.gtf
+*.hic
+*.2bit
+
+# large logs/intermediates
+*.log
+*.tmp
+tmp/
+TEMP/

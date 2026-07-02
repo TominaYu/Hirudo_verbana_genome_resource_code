@@ -1,0 +1,23 @@
+category	path	description
+Fig2	scripts/fig2_genome_landscape/make_tracks.py	Generate chromosome-level feature tracks used for the genome feature landscape.
+Fig2	scripts/fig2_genome_landscape/make_repeat_tracks_from_rmout.py	Generate repeat-density tracks from RepeatMasker output.
+Fig2	scripts/fig2_genome_landscape/inspect_inputs.sh	Inspect input files for the genome feature landscape.
+SuppFig1	scripts/suppfig1_chr04_local_curation/prepare_fig1A_blocks.py	Prepare Chr04-vs-wcHirVerb1 alignment block tables.
+SuppFig1	scripts/suppfig1_chr04_local_curation/plot_fig1A_publication_ids.py	Plot publication-ready Chr04 local curation panel using public IDs.
+SuppFig1	scripts/suppfig1_chr04_local_curation/plot_fig1A_chr04_vs_EUchr2.py	Alternative plotting script for Chr04 versus wcHirVerb1 Chr02.
+SuppFig2	scripts/suppfig2_chr04_read_support/plot_suppfig2_panel_A.py	Plot alternative local backbone model definitions.
+SuppFig2	scripts/suppfig2_chr04_read_support/plot_suppfig2_panels_BC.py	Plot strict spanning support and gap-sweep panels.
+SuppFig2	scripts/suppfig2_chr04_read_support/prepare_panel_E_paired_reads.py	Prepare same-read comparison table for Supplementary Fig. 2 Panel E.
+SuppFig2	scripts/suppfig2_chr04_read_support/classify_boundary_read_support.py	Classify local boundary read support.
+SuppFig2	scripts/suppfig2_chr04_read_support/summarize_focus_deletions.py	Summarize local deletion-like alignments.
+SuppFig3	scripts/suppfig3_chromosome_correspondence/build_and_plot_chr_correspondence.py	Build and plot chromosome correspondence summary.
+SuppFig3	scripts/suppfig3_chromosome_correspondence/make_chr_correspondence_table.py	Generate chromosome correspondence table.
+SuppFig3	scripts/suppfig3_chromosome_correspondence/plot_chr_correspondence_panels.py	Plot chromosome correspondence panels.
+SuppFig3	scripts/suppfig3_chromosome_correspondence/extract_eu_nuclear_chromosomes.py	Extract wcHirVerb1 nuclear chromosome records.
+AssemblyQC	scripts/assembly_qc/genome_basic_stats.py	Compute basic assembly statistics.
+AssemblyQC	scripts/assembly_qc/parse_busco_full_table.py	Parse BUSCO full-table output.
+AssemblyQC	scripts/assembly_qc/make_busco_summary_comparison.py	Generate BUSCO comparison summary.
+AssemblyQC	scripts/assembly_qc/check_telomere_chr01_14.py	Check chromosome-end telomeric repeat patterns.
+AssemblyQC	scripts/assembly_qc/summarize_telomere_support.py	Summarize telomere support.
+AssemblyQC	scripts/assembly_qc/make_chr_validation_tables.py	Generate chromosome validation tables.
+Utility	scripts/utilities/make_public_release_staging.sh	Helper script used for public release staging.
