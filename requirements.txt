@@ -2,3 +2,5 @@ numpy
 pandas
 matplotlib
 biopython
+cooler
+h5py
